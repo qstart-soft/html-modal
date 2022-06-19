@@ -44,8 +44,9 @@ class ModalBuilder
      */
     public function getContent()
     {
-        $content = $this->tryExecuteMethod($this->config->getModalContainer());
-        if ($content === null) {
+        $container = $this->config->getModalContainer();
+        $content = $this->tryExecuteMethod($container);
+        if ($content === null && $container->isPassThrough()) {
             $content = $this->tryExecuteMethod($this->config->getDefaultModalContainer());
         }
         return $content;
