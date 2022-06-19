@@ -11,7 +11,7 @@ Installation
 ------------
 
 ```
-$ composer require qstart/html-modal
+$ composer require qstart-soft/html-modal
 ```
 
 Getting Started
