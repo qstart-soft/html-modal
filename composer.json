@@ -1,0 +1,23 @@
+{
+  "name": "qstart-soft/html-modal",
+  "type": "library",
+  "keywords": ["modal", "html"],
+  "description": "The Html-Modal component",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "SergeiGostev",
+      "email": "sergei.p.gostev@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "symfony/templating": "^6.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Qstart\\HtmlModal\\": ""
+    }
+  }
+}
