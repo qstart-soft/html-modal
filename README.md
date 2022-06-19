@@ -17,15 +17,15 @@ $ composer require qstart-soft/html-modal
 Getting Started
 ---------------
 
-First you need to create a container instance of [Qstart\HtmlModal\AbstractModalContainer] for working with modal windows.
+First you need to create a container instance of [AbstractModalContainer](https://github.com/qstart-soft/html-modal/blob/main/AbstractModalContainer.php) for working with modal windows.
 
 The container uses two types of attributes:
 
-___Qstart\HtmlModal\ModalName___
+___[ModalName](https://github.com/qstart-soft/html-modal/blob/main/ModalName.php)___
 
 It is passes a list of modal window names for which the method is used.
 
-___Qstart\HtmlModal\ModalBuilderMethod___
+___[ModalBuilderMethod](https://github.com/qstart-soft/html-modal/blob/main/ModalBuilderMethod.php)___
 
 is used to set the method in which the content is wrapped if needed. This attribute can be set in two ways 
 - globally for the whole class
